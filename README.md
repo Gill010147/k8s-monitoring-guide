@@ -726,6 +726,6 @@ spec:
 
 ---
 
-**이전 Repository**: [k8s-monitoring-deployment](https://github.com/Gill010147/k8s-cluster-setting)
+**이전 Repository**: [k8s-cluster-setting](https://github.com/Gill010147/k8s-cluster-setting)
 
 **Date**: 2025-09-26  
