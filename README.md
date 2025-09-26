@@ -1,5 +1,43 @@
 # Kubernetes 클러스터 애플리케이션 배포 및 모니터링 시스템 구축
 
+<!-- Stack badges -->
+<p align="left">
+  <a href="https://kubernetes.io/">
+    <img src="https://img.shields.io/badge/Kubernetes-v1.30-blue.svg?logo=kubernetes&logoColor=white" />
+  </a>
+  <a href="https://ubuntu.com/">
+    <img src="https://img.shields.io/badge/Ubuntu-24.04%20LTS-E95420.svg?logo=ubuntu&logoColor=white" />
+  </a>
+  <a href="https://projectcalico.org/">
+    <img src="https://img.shields.io/badge/CNI-Calico-00A3E0.svg?logo=linux&logoColor=white" />
+  </a>
+  <a href="https://containerd.io/">
+    <img src="https://img.shields.io/badge/Runtime-containerd-575757.svg?logo=containerd&logoColor=white" />
+  </a>
+  <a href="https://prometheus.io/">
+    <img src="https://img.shields.io/badge/Monitoring-Prometheus-E6522C.svg?logo=prometheus&logoColor=white" />
+  </a>
+  <a href="https://grafana.com/">
+    <img src="https://img.shields.io/badge/Dashboard-Grafana-F46800.svg?logo=grafana&logoColor=white" />
+  </a>
+  <img src="https://img.shields.io/badge/Exporter-Node%20Exporter-00C853.svg" />
+  <img src="https://img.shields.io/badge/Exporter-MySQL%20Exporter-4479A1.svg?logo=mysql&logoColor=white" />
+  <a href="https://spring.io/projects/spring-boot">
+    <img src="https://img.shields.io/badge/Spring%20Boot-3.5.6-6DB33F.svg?logo=springboot&logoColor=white" />
+  </a>
+  <img src="https://img.shields.io/badge/Metrics-Micrometer-2E5E82.svg" />
+  <a href="https://www.java.com/">
+    <img src="https://img.shields.io/badge/Java-17-007396.svg?logo=openjdk&logoColor=white" />
+  </a>
+  <a href="https://helm.sh/">
+    <img src="https://img.shields.io/badge/Helm-3-277A9F.svg?logo=helm&logoColor=white" />
+  </a>
+  <a href="https://www.docker.com/">
+    <img src="https://img.shields.io/badge/Docker-28.4.0-2496ED.svg?logo=docker&logoColor=white" />
+  </a>
+</p>
+
+
 본 가이드는 기존에 구축된 Kubernetes 클러스터를 기반으로 Spring Boot 애플리케이션의 컨테이너화부터 Prometheus/Grafana를 활용한 종합적인 모니터링 시스템 구축까지의 전체 DevOps 파이프라인을 다룹니다. 실무에서 활용 가능한 Docker Hub 연동, 헬름 차트 관리, 그리고 운영 모니터링 구현을 포함합니다.
 
 ## 📋 목차
